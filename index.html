@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>• kovalsky_i • СОЦИАЛЬНЫЕ СЕТИ </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile-card">
+            <img src="/img/your-image.jpeg" alt="Ковальский" class="profile-image">
+            <h1>kovalsky_i</h1>
+            <p class="description">Музыкант • Веб-дизайнер • Твой друг?</p>
+        </div>
+        <div class="tabs">
+            <button class="tab-button active" onclick="openTab(event, 'social')">Соц.сети</button>
+            <button class="tab-button" onclick="openTab(event, 'various')">Различное</button>
+        </div>
+        <div class="tab-indicator-wrapper">
+            <div class="tab-indicator"></div>
+        </div>
+        <div id="social" class="tab-content">
+            <ul class="social-links">
+                <li><a href="https://t.me/kovalsky_me"><img src="/img/telegram-icon.png" alt="Telegram">Telegram<br><span>t.me/kovalsky_me</span></a></li>
+                <li><a href="https://www.donationalerts.com/r/kovalsky_i"><img src="/img/donationalerts-icon.png" alt="Donationalerts">Donationalerts<br><span>donationalerts.com/r/kovalsky_i</span></a></li>
+                <li><a href="https://www.twitch.tv/kovalsky_i"><img src="/img/twitch-icon.png" alt="Twitch">Twitch<br><span>twitch.tv/kovalsky_i</span></a></li>
+                <li><a href="https://www.tiktok.com/@kovalsky_i?_t=8mplxERz8Zb&_r=1"><img src="/img/tiktok-icon.png" alt="TikTok">TikTok<br><span>tiktok.com/@kovalsky_i</span></a></li>
+                <li><a href="https://www.youtube.com/@kovalsky_me"><img src="/img/youtube-icon.png" alt="YouTube">YouTube<br><span>youtube.com/@kovalsky_me</span></a></li>
+            </ul>
+        </div>
+        <div id="various" class="tab-content" style="display:none;">
+            <p>Различное содержимое...</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
