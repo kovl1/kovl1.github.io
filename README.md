@@ -1,1 +1,0 @@
-# kovalsky_i
