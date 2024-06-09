@@ -90,6 +90,10 @@ h1 {
     min-height: 200px;
 }
 
+.tab-content p {
+    padding-left: 10px;
+}
+
 .social-links {
     list-style: none;
     padding: 0;
