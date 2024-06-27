@@ -15,24 +15,26 @@
             <p class="description">Музыкант • Веб-дизайнер • Твой друг?</p>
         </div>
         <div class="tabs">
-            <button class="tab-button active" onclick="openTab(event, 'social')">Соц.сети</button>
-            <button class="tab-button" onclick="openTab(event, 'various')">Различное</button>
-        </div>
-        <div class="tab-indicator-wrapper">
-            <div class="tab-indicator"></div>
+            <div class="btns">
+                <button class="tab-button active" onclick="openTab(event, 'social')">Соц.сети</button>
+                <button class="tab-button" onclick="openTab(event, 'various')">Различное</button>
+            </div>
+            <div class="tab-indicator-wrapper">
+                <div class="tab-indicator"></div>
+            </div>
         </div>
         <div id="social" class="tab-content">
             <ul class="social-links">
-                <li><a href="https://t.me/kovalsky_me"><img src="telegram-icon.png" alt="Telegram">Telegram<br><span>t.me/kovalsky_me</span></a></li>
-                <li><a href="https://www.donationalerts.com/r/kovalsky_i"><img src="donationalerts-icon.png" alt="Donationalerts">Donationalerts<br><span>donationalerts.com/r/kovalsky_i</span></a></li>
-                <li><a href="https://www.twitch.tv/kovalsky_i"><img src="twitch-icon.png" alt="Twitch">Twitch<br><span>twitch.tv/kovalsky_i</span></a></li>
-                <li><a href="https://www.tiktok.com/@kovalsky_i?_t=8mplxERz8Zb&_r=1"><img src="tiktok-icon.png" alt="TikTok">TikTok<br><span>tiktok.com/@kovalsky_i</span></a></li>
-                <li><a href="https://www.youtube.com/@kovalsky_me"><img src="youtube-icon.png" alt="YouTube">YouTube<br><span>youtube.com/@kovalsky_me</span></a></li>
+                <li><a href="https://t.me/kovalsky_me"><img src="telegram-icon.png" alt="Telegram"><div class="text"><span class="title">Telegram</span><span class="link">t.me/kovalsky_me</span></div></a></li>
+                <li><a href="https://www.donationalerts.com/r/kovalsky_i"><img src="donationalerts-icon.png" alt="Donationalerts"><div class="text"><span class="title">Donationalerts</span><span class="link">donationalerts.com/r/kovalsky_i</span></div></a></li>
+                <li><a href="https://www.twitch.tv/kovalsky_i"><img src="twitch-icon.png" alt="Twitch"><div class="text"><span class="title">Twitch</span><span class="link">twitch.tv/kovalsky_i</span></div></a></li>
+                <li><a href="https://www.tiktok.com/@kovalsky_i?_t=8mplxERz8Zb&_r=1"><img src="tiktok-icon.png" alt="TikTok"><div class="text"><span class="title">TikTok</span><span class="link">tiktok.com/@kovalsky_i</span></div></a></li>
+                <li><a href="https://www.youtube.com/@kovalsky_me"><img src="youtube-icon.png" alt="YouTube"><div class="text"><span class="title">YouTube</span><span class="link">youtube.com/@kovalsky_me</span></div></a></li>
             </ul>
         </div>
         <div id="various" class="tab-content" style="display:none;">
             <ul class="social-links">
-                <li><a href="https://t.me/kovotvet_bot"><img src="bot-image.png" alt="Tbot">Telegram - (Бот для предложений)<br><span>t.me/kovotvet_bot</span></a></li>
+                <li><a href="https://t.me/kovotvet_bot"><img src="bot-image.png" alt="Tbot"><div class="text"><span class="title">Telegram - (Бот для предложений)</span><span class="link">t.me/kovotvet_bot</span></div></a></li>
             </ul>
             <p>Различное содержимое в разработке...</p>
         </div>
