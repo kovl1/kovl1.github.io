@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>• kovalsky_i • СОЦИАЛЬНЫЕ СЕТИ </title>
-    <link rel="shortcut icon" href="icon-site.png">
+    <link rel="shortcut icon" href="img/icon-site.png">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <div class="container">
+        <div class="language-switcher">
+            <span class="language" id="language-en">EN</span> / 
+            <span class="language" id="language-ru">RU</span>
+        </div>
         <div class="profile-card">
-            <img src="kovalsky_i.jpeg" alt="Ковальский" class="profile-image">
+            <img src="img/kovalsky_i.jpeg" alt="Ковальский" class="profile-image">
             <h1>kovalsky_i</h1>
-            <p class="description">Музыкант • Веб-дизайнер • Твой друг?</p>
+            <p class="description" data-lang-en="Dreamer • Web Designer • Creator" data-lang-ru="Мечтатель • Веб-дизайнер • Создатель">Мечтатель • Веб-дизайнер • Создатель</p>
         </div>
         <div class="tabs">
             <div class="btns">
-                <button class="tab-button active" onclick="openTab(event, 'social')">Соц.сети</button>
-                <button class="tab-button" onclick="openTab(event, 'various')">Различное</button>
+                <button class="tab-button active" onclick="openTab(event, 'social')" data-lang-en="Social Networks" data-lang-ru="Соц.сети">Соц.сети</button>
+                <button class="tab-button" onclick="openTab(event, 'various')" data-lang-en="Various" data-lang-ru="Различное">Различное</button>
             </div>
             <div class="tab-indicator-wrapper">
                 <div class="tab-indicator"></div>
@@ -25,18 +29,18 @@
         </div>
         <div id="social" class="tab-content">
             <ul class="social-links">
-                <li><a href="https://t.me/kovalsky_me"><img src="telegram-icon.png" alt="Telegram"><div class="text"><span class="title">Telegram</span><span class="link">t.me/kovalsky_me</span></div></a></li>
-                <li><a href="https://www.twitch.tv/kovalsky_i"><img src="twitch-icon.png" alt="Twitch"><div class="text"><span class="title">Twitch</span><span class="link">twitch.tv/kovalsky_i</span></div></a></li>
-                <li><a href="https://www.tiktok.com/@kovalsky_i?_t=8mplxERz8Zb&_r=1"><img src="tiktok-icon.png" alt="TikTok"><div class="text"><span class="title">TikTok</span><span class="link">tiktok.com/@kovalsky_i</span></div></a></li>
-                <li><a href="https://www.youtube.com/@kovalsky_me"><img src="youtube-icon.png" alt="YouTube"><div class="text"><span class="title">YouTube</span><span class="link">youtube.com/@kovalsky_me</span></div></a></li>
+                <li><a href="https://t.me/kovalsky_me"><img src="img/icons/telegram-icon.png" alt="Telegram"><div class="text"><span class="title" data-lang-en="Telegram" data-lang-ru="Telegram">Telegram</span><span class="link" data-lang-en="t.me/kovalsky_me" data-lang-ru="t.me/kovalsky_me">t.me/kovalsky_me</span></div></a></li>
+                <li><a href="https://www.twitch.tv/kovalsky_i"><img src="img/icons/twitch-icon.png" alt="Twitch"><div class="text"><span class="title" data-lang-en="Twitch" data-lang-ru="Twitch">Twitch</span><span class="link" data-lang-en="twitch.tv/kovalsky_i" data-lang-ru="twitch.tv/kovalsky_i">twitch.tv/kovalsky_i</span></div></a></li>
+                <li><a href="https://www.tiktok.com/@kovalsky_i?_t=8mplxERz8Zb&_r=1"><img src="img/icons/tiktok-icon.png" alt="TikTok"><div class="text"><span class="title" data-lang-en="TikTok" data-lang-ru="TikTok">TikTok</span><span class="link" data-lang-en="tiktok.com/@kovalsky_i" data-lang-ru="tiktok.com/@kovalsky_i">tiktok.com/@kovalsky_i</span></div></a></li>
+                <li><a href="https://www.youtube.com/@kovalsky_me"><img src="img/icons/youtube-icon.png" alt="YouTube"><div class="text"><span class="title" data-lang-en="YouTube" data-lang-ru="YouTube">YouTube</span><span class="link" data-lang-en="youtube.com/@kovalsky_me" data-lang-ru="youtube.com/@kovalsky_me">youtube.com/@kovalsky_me</span></div></a></li>
             </ul>
         </div>
         <div id="various" class="tab-content" style="display:none;">
             <ul class="social-links">
-                <li><a href="https://www.donationalerts.com/r/kovalsky_i"><img src="donationalerts-icon.png" alt="Donationalerts"><div class="text"><span class="title">Donationalerts</span><span class="link">donationalerts.com/r/kovalsky_i</span></div></a></li>
-                <li><a href="https://t.me/kovotvet_bot"><img src="bot-image.png" alt="Tbot"><div class="text"><span class="title">Telegram - (Бот для предложений)</span><span class="link">t.me/kovotvet_bot</span></div></a></li>
+                <li><a href="https://www.donationalerts.com/r/kovalsky_i"><img src="img/icons/donat-icon.png" alt="Donationalerts"><div class="text"><span class="title" data-lang-en="Donationalerts" data-lang-ru="Donationalerts">Donat</span><span class="link" data-lang-en="donationalerts.com/r/kovalsky_i" data-lang-ru="donationalerts.com/r/kovalsky_i">donationalerts.com/r/kovalsky_i</span></div></a></li>
+                <li><a href="https://t.me/kovotvet_bot"><img src="img/icons/bot-image.png" alt="Tbot"><div class="text"><span class="title" data-lang-en="Telegram - (Bot for Suggestions)" data-lang-ru="Telegram - (Бот для предложений)">Telegram - (Бот для предложений)</span><span class="link" data-lang-en="t.me/kovotvet_bot" data-lang-ru="t.me/kovotvet_bot">t.me/kovotvet_bot</span></div></a></li>
             </ul>
-            <p>Различное содержимое в разработке...</p>
+            <p data-lang-en="Various content under development..." data-lang-ru="Различное содержимое в разработке...">Различное содержимое в разработке...</p>
         </div>
     </div>
     <script src="main.js"></script>

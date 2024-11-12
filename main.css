@@ -1,6 +1,9 @@
 body {
-    background-image: url('https://sotni.ru/wp-content/uploads/2023/08/temnyi-fon-301.webp');
+    background-image: url('img/bg.webp');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-color: #333;
     color: white;
     font-family: Arial, sans-serif;
@@ -139,4 +142,34 @@ h1 {
 .social-links .link {
     color: #999;
     font-size: 12px;
+}
+
+.language-switcher {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.language {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.professions {
+    max-width: 365px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.profession {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.profession.center {
+    font-weight: bold;
 }
