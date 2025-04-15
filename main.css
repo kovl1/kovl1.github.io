@@ -86,7 +86,7 @@ h1 {
     transition: left 0.3s;
 }
 
-.tab-button:nth-child(2).active ~ .tab-indicator-wrapper .tab-indicator {
+.tab-button:nth-child(2).active~.tab-indicator-wrapper .tab-indicator {
     left: 50%;
 }
 
@@ -114,7 +114,7 @@ h1 {
     transition: background-color 0.3s;
 }
 
-.social-links span{
+.social-links span {
     padding-top: 5px;
 }
 
