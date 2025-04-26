@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://kovl1.github.io/6317771_4.xml
