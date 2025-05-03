@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
         { id: 16, title: "Tame Impala – Innerspeaker", price: 4590, image: "img/newcatalog/Tame Impala – Innerspeaker.jpg"}
     ];
 
-    const itemsPerLoad = 5;
+    const itemsPerLoad = 4;
     let displayedItems = 0;
 
     const container = document.getElementById('catalog-container');
