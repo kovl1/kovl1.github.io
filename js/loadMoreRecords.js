@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
         { id: 8, title: "The Weeknd – The Highlights", price: 7990, image: "img/newcatalog/The Weeknd – The Highlights.jpg"},
         { id: 9, title: "Pink Floyd – The Dark Side of the Moon", price: 3990, image: "img/newcatalog/Pink Floyd – The Dark Side of the Moon.jpg"},
         { id: 10, title: "Various Artists – Shrek (Black Vinyl)", price: 9990, image: "img/newcatalog/Various Artists – Shrek (Black Vinyl).jpg"},
-        { id: 11, title: "Кино – Последний Герой", price: 6790, image: "img/newcatalog/Кино – Последний Герой.jpg"},
+        { id: 11, title: "Кино – Последний Герой", price: 6790, image: "img/newcatalog/Kino – Last Hero.jpg"},
         { id: 12, title: "Magdalena Bay – A Little Rhythm And A Wicked Feeling (Translucent Cobalt Vinyl)", price: 6990, image: "img/newcatalog/Magdalena Bay – A Little Rhythm And A Wicked Feeling.jpg"},
         { id: 13, title: "Ludovico Einaudi – Cinema", price: 7990, image: "img/newcatalog/Ludovico Einaudi – Cinema.jpg"},
         { id: 14, title: "Kendrick Lamar – good kid, m.A.A.d city", price: 3690, image: "img/newcatalog/Kendrick Lamar – good kid, m.A.A.d city.jpg"},
