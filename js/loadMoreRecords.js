@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <h3 class="block-3__name">${record.title}</h3>
             <p class="block-3__price">${record.price} руб</p>
             <div class="block-3__buttons">
-                <a href="tovar.php" class="block-3__btn block-3__btn--details">ПОДРОБНЕЕ</a>
+                <a href="tovar.html" class="block-3__btn block-3__btn--details">ПОДРОБНЕЕ</a>
                 <a href="#" class="block-3__btn block-3__btn--cart">В КОРЗИНУ</a>
             </div>
         `;
